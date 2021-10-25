@@ -2,7 +2,7 @@ import factory
 from faker import Factory as FakerFactory
 
 from django.contrib.auth.models import User
-from django.utils import now
+from django.utils.timezone import now
 
 from blog.models import Post
 
